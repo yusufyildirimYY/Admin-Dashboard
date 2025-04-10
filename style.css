@@ -10,31 +10,30 @@
 
 body {
   background-color: rgb(226, 232, 240);
+  font-family: "Roboto", sans-serif;
 }
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 320px 1fr;
   grid-template-rows: 1fr;
 }
-.sideTop {
-  display: flex;
-  text-align: center;
-  align-items: center;
-}
-.logo {
-  height: 4rem;
-  width: 4rem;
-}
 
-.icons {
-  height: 2.5rem;
-  width: 2.5rem;
+.logo {
+  height: 3.5rem;
+  width: 3.5rem;
 }
-.sideContent {
-  display: flex;
-  text-align: center;
-  align-items: center;
+.logoText {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 0.7rem;
+}
+.imgText {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.icons {
+  width: 2rem;
 }
 
 .sideNav {
@@ -42,8 +41,34 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: rgb(25, 146, 212);
+  color: white;
 }
-
+.sideTop {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 1rem;
+  margin-left: 1.5rem;
+}
+.sideMiddle {
+  margin: 1rem;
+  margin-left: 1.5rem;
+}
 .sideBottom {
   margin-bottom: 35vh;
+  margin: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 30vh;
+}
+
+.sideTabs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.sideContent {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 1.5rem;
 }
