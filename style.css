@@ -14,11 +14,36 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr;
 }
 .sideTop {
   display: flex;
   text-align: center;
   align-items: center;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.icons {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.sideContent {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(25, 146, 212);
+}
+
+.sideBottom {
+  margin-bottom: 35vh;
 }
