@@ -301,9 +301,52 @@ body {
   flex-direction: column;
 }
 
+.trendings {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+  align-items: flex-start;
+  justify-content: space-around;
+  border-radius: 0.7rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  flex: 1;
+}
+
 .trendingHeader {
   margin-bottom: 1rem;
   margin-top: 1.5rem;
   font-weight: bold;
   font-size: 1.2rem;
+}
+.trendingProfilePicture {
+  width: 3rem;
+}
+.trendingProfiles {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+.trendingProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.3rem;
+}
+
+.trendingProfileName {
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-self: start;
+}
+
+.trendingProject {
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+  align-self: start;
+  color: rgb(99, 99, 99);
 }
