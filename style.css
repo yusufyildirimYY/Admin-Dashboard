@@ -187,6 +187,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr;
   margin-left: 1rem;
+  gap: 1.5rem;
 }
 
 .cardsMain {
@@ -251,4 +252,58 @@ body {
 .cardsSide {
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+  display: flex;
+  flex-direction: column;
+}
+
+.announcementsHeader {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.announcementsCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.7rem;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+.announcementTittle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-self: start;
+}
+
+.announcementDescription {
+  color: rgb(99, 99, 99);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 1px;
+  margin-block: 1rem;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendingHeader {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
